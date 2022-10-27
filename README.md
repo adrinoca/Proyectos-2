@@ -1,4 +1,4 @@
-#Apuntes generales
+# Apuntes generales
 
 ## Comandos git 
 
@@ -6,6 +6,8 @@
 2. git clone <- clonar repositorio
 3. git status <- explain the status of the different files.
 4. git add <- add files to the staging area
-5. git commit -m "Comentario obligatorio"<- commit files to local repository
-6. git push <- send coimmited changes of master branch to the remote repository.
+5. git commit -m "Comentario obligatorio" <- commit files to local repository
+6. git push origin main <- send coimmited changes of master branch to the remote repository.
+
+
 
