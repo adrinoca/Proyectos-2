@@ -1,0 +1,63 @@
+<!-- Código para generar un formulario para que el usuario lo rellene --> 
+
+<!DOCTYPE html>
+<html lang = "en">
+<!-- Título página web -->
+<head>
+<title>Employee Interests Survey</title>
+</head>
+<!-- Mandar lo que se rellena en el form -->
+<form action="http://google.co.in">
+
+<!-- Se pone todo en el centro -->
+<div align = "center">
+
+<h1 Employee Interest Survey></h1>
+
+Enter your name: 
+<input type = "text" name="UserName" size="35" maxlength="35" value="">
+</br><br>
+
+Enter yout department:
+<input type = "text", name="Deptt", size = "35", maxlength="35", value="">
+</br><br>
+
+Tell us a litter about yourself:
+<textarea name = "comments", cols="30", rows="4", ></textarea>
+</br><br>
+
+Do you exercise at home?:
+<!-- Radio buttons to choose one of multiple options -->
+<input type="radio", name="exe" value="1">Yes
+<input type="radio" name="exe" value="2">No
+</br><br>
+
+How do you like to read about your favourite topics?
+<!-- Select multiple options -->
+<p>
+<input type="checkbox" name="Books">Books
+<input type="checkbox" name="Web">Online resources
+<input type="checkbox" name="Phone">Phone apps
+<input type="checkbox" name="Magazines">Magazines
+</p>
+
+What genre of movies do you like?:
+<!-- Select box to choose from multiple dropdown options-->
+<select name="moviepref" ><option>
+    <option value=1 selected = "true">comedy
+    <option value=2 >romance
+    <option value=3 >thriller
+    <option value=4 >horror
+    <option value=5 >biopic
+    </select>
+    </br></br>
+
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Submit form">
+</div>
+</form>
+</body>
+</html>
+
+    
+
