@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--En este ejemplo se utiliza la stylesheet por defecto en bootstrap--> 
+<html>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous">  
+
+<!--Para que la pestaña se adapte a la pantalla del usuario-->
+<div class="container-fluid">
+    <!--Se hace una fila con columnas-->
+    <div class="row">
+        <div class="col-md-2"> <!--col-sm-12 col-xs-12"-->
+            <!--nav se utiliza para tener un set de links-->
+            <nav id="navbar">
+                <h3>Technical Documentation</h3>
+                <!--Stacking de contenido con ul-->
+                <ul>
+                    <!--Internal linking to the respective sections-->
+                    <a class="nav-link" href="#Introduction" rel="Internal">
+                        <li>Introduction</li>
+                    </a>
+                    <a class="nav-link" href="#What_you_should_already_know" rel="internal">
+                        <li>What you should already know</li>
+                    </a>
+                    <a class="nav-link" href="#About_Topic" rel="internal">
+                        <li>About the topic</li>
+                    </a>
+                    <a class="nav-link" href="#Topic_1" rel="internal">
+                        <li>Topic 1</li>
+                    </a>
+                    <a class="nav-link" href="#Topic_2" rel="internal">
+                        <li>Topic 2</li>
+                    </a>
+                </ul>
+            </nav>
+        <!--Se cierra la fila de columna-->
+        </div>
+        <div class="col-md-10 col-sm-12 col-xs-12">
+            <main id="main_doc">
+                <section class="main-section" id="Introduction">
+                    <h3 style="background: black; color: white">Introduction</h3>
+                    <article>
+                        <p>Some content about the main topic, for example Java documentation introduction about the language.   </p>
+                    </article>
+                </section>
+                <section class="main-section" id="What_you_should_already_know">
+                    <h3 style = "background: black; color: white">What you should already know</h3>
+                    <article>
+                        <p>Background information before getting into the topic:</p>
+                        <ol>
+                        <li>Some list content</li>
+                        <li>Prerequisites.</li>
+                        <li>Workings and assumptions</li>
+                        </ol>
+                        <p>Any other content to be covered before learning this topic</p>
+                    </article>
+            </main>
+        </div>
+    </div>
+</div>
+
+</html>
